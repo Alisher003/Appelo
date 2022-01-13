@@ -1,0 +1,50 @@
+А.А.Абдумаликович, [06.12.2021 18:30]
+[Forwarded from Аlisher Abduvaliyev]
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.container {
+  width: 1157px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+.header {
+    background-image: url(/images/FON.svg);
+    width: 1340px;
+    height: 800px;
+}
+
+.img-logo {
+    width: 91px;
+    height: 30px;
+}
+
+.item-logo {
+    padding: 5px;
+    padding-right: 500px;
+}
